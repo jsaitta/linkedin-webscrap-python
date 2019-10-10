@@ -1,4 +1,4 @@
-# Scrapping aggregated Linkedin data from using Python
+# Scrapping aggregated Linkedin data using Python
 
 
 This repository uses Python's Selenium package (https://selenium-python.readthedocs.io/) to scrap aggregated alumini data off of LinkedIn into a csv file. The package Selenium provides the ability scrap data from a web site.
