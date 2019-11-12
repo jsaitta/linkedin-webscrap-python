@@ -1,0 +1,21 @@
+""" filename: parameters.py """
+
+
+#define colleges and urls
+colleges={'Harvard','Princeton','Yale','Columbia','Cornell','Dartmouth','Brown','Penn'}
+
+colleges_urls = {'Harvard':'https://www.linkedin.com/school/harvard-university/people/', 
+          'Princeton':'https://www.linkedin.com/school/princeton-university/people/',
+          'Yale':'',
+          'Columbia':'',
+          'Cornell':'',
+          'Dartmouth':'',
+          'Brown':'',
+          'Penn':''}
+
+#How many top employers or industries do you want to pull?
+run_through = 17 #17 max/full (top 15) 
+
+# login credentials
+linkedin_username = 'XXXX' #enter user_name here
+linkedin_password = 'XXXX' #enter pass here
