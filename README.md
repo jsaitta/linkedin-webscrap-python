@@ -13,5 +13,5 @@ This repository contains two files:
     + Uses Python (Selenium) to control and direct Chrome to target web site(s).
     + Loops over each universities' LinkedIn page
     + Downloads each website's page source into Python as text
-    + Uses Selector's (from [parsel] (https://parsel.readthedocs.io/en/latest/)) xpath locator to identify and extract target data/information
+    + Uses Selector's (from [parsel](https://parsel.readthedocs.io/en/latest/)) xpath locator to identify and extract target data/information
     + Exports dictionaries of stored data into a CSV file
