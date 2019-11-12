@@ -8,7 +8,7 @@ This repository contains two files:
 
 1. **Parameters**: Where you can define and store your parameters:
     + College names and urls
-    + LinkedIn username and password. This part is necessary if you want to automatically log-in to LinkedIn and do not want your crendetials displayed in the main code.  
+    + LinkedIn username and password. This part is necessary if you want to automatically log-in to LinkedIn and do not want your crendetials displayed in the main code  
 2. **Scraping**: Running this script competes the main portions of the task. 
     + Uses Python (Selenium) to control and direct Chrome to target web site(s).
     + Loops over each universities' LinkedIn page
