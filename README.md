@@ -12,6 +12,6 @@ This repository contains two files:
 2. **Scraping**: Running this script competes the main portions of the task. 
     + Uses Python (Selenium) to control and direct Chrome to target web site(s).
     + Loops over each universities' LinkedIn page
-    + Downloads page_source HTML code into Python as text
-    + Uses xpath location to identify and store target data/information on each website
+    + Downloads each website's page source into Python as text
+    + Uses Selector's (from [parsel] (https://parsel.readthedocs.io/en/latest/)) xpath locator to identify and extract target data/information
     + Exports dictionaries of stored data into a CSV file
