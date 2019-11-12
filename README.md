@@ -7,6 +7,11 @@ As such, this is an introductory repository to help Python users learn about the
 This repository contains two files:
 
 1. **Parameters**: Where you can define and store your parameters:
-+ College names and urls
-+ LinkedIn username and password. This part is necessary if you want to automatically log-in to LinkedIn and do not want your crendetials displayed in the main code.  
-2. **Scraping**: Running this script competes the task. 
+  + College names and urls
+  + LinkedIn username and password. This part is necessary if you want to automatically log-in to LinkedIn and do not want your crendetials displayed in the main code.  
+2. **Scraping**: Running this script competes the main portions of the task. 
+  + Uses Python (Selenium) to control and direct Chrome to target web site(s).
+  + Loops over each universities' LinkedIn page
+  + Downloads page_source HTML code into Python as text
+  + Uses xpath location to identify and store target data/information on each website
+  + Exports dictionaries of stored data into a CSV file
