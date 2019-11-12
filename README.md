@@ -1,13 +1,10 @@
 # Scrapping aggregated Linkedin data using Python
+This repository uses Python's Selenium [package](https://selenium-python.readthedocs.io/) to scrap aggregate data off of LinkedIn and exports it into a csv file.
 
-
-This repository uses Python's Selenium package (https://selenium-python.readthedocs.io/) to scrap aggregated alumini data off of LinkedIn into a csv file. The package Selenium provides the ability scrap data from a web site.
-
-This is an introductory repository to help Python users learn about the basics of (a) webscraping, (b) "for" loops for parsimonious code, and (c) working with / exporting nested dictionaries. This repository uses chromedriver (https://chromedriver.chromium.org/) to complete its task.
-
+This is an introductory repository to help Python users learn about the basics of (a) webscraping, (b) using "for" loops for parsimonious code, and (c) working with / exporting nested dictionaries. This repository uses chromedriver (https://chromedriver.chromium.org/) to complete its task.
 
 ## How to use this repository
 This repository contains two different parts:
 
-1. Parameters
-2. Scraping
+1. **Parameters**: Where you can store your LinkedIn username and password. This part is necessary if you want to automatically log-in to LinkedIn and do not want your crendetials displayed in the main code.  
+2. Scraping: 
