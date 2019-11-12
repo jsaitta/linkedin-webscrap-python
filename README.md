@@ -7,6 +7,6 @@ As such, this is an introductory repository to help Python users learn about the
 This repository contains two files:
 
 1. **Parameters**: Where you can define and store your parameters:
-* College names and urls
-* LinkedIn username and password. This part is necessary if you want to automatically log-in to LinkedIn and do not want your crendetials displayed in the main code.  
++ College names and urls
++ LinkedIn username and password. This part is necessary if you want to automatically log-in to LinkedIn and do not want your crendetials displayed in the main code.  
 2. **Scraping**: Running this script competes the task. 
