@@ -1,5 +1,5 @@
 # Scrapping aggregated Linkedin data using Python
-This repository uses Python's Selenium [package](https://selenium-python.readthedocs.io/) to scrap data off of LinkedIn and export it into a csv file. This project scraps select aggregate alumini data (e.g. summary counts) from all eight Ivy League universities' Linkedin page. This would allow users, for example, identify the top industries or companies a majority of Ivy League graduates work for. However, the foundational code can have many other applications. 
+This repository uses Python's Selenium [package](https://selenium-python.readthedocs.io/) to scrap data off of LinkedIn and export it into a csv file. This project scraps select aggregate alumini data (e.g. summary counts) from all eight Ivy League universities' Linkedin page. This would allow users, for example, identify the top industries or companies a majority of Ivy League graduates work for. However, the foundational code can have many other applications -- especially if you do not want to access LinkedIn's API.
 
 As such, this is an introductory repository to help Python users learn about the basics of (a) webscraping, (b) using "for" loops for parsimonious code, and (c) working with / exporting nested dictionaries. This repository uses Google Chrome (and correspondingly [chromedriver](https://chromedriver.chromium.org/)) to complete its task. 
 
@@ -15,3 +15,8 @@ This repository contains two files:
     + Downloads each website's page source into Python as text
     + Uses Selector's (from [parsel](https://parsel.readthedocs.io/en/latest/)) xpath locator to identify and extract target data/information
     + Exports dictionaries of stored data into a CSV file
+    
+    
+    
+### Note
+Since this repository does 
