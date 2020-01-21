@@ -14,8 +14,8 @@ import os
 
 #set web driver and selenium directories
 options = Options()
-options.binary_location = "C:\\Users\\jsaitta\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe"
-driver = webdriver.Chrome(chrome_options = options, executable_path=r'C:\Python\chromedriver.exe')
+options.binary_location = "C:\...chrome.exe" #reference location of Chrome
+driver = webdriver.Chrome(chrome_options = options, executable_path=r'C:\...chromedriver.exe') #reference location of chromedriver
 
 #log into Linkedin
 driver.get('https://www.linkedin.com')
