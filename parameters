@@ -1,5 +1,4 @@
-""" filename: parameters.py """
-
+#define parameters for scraping.py file
 
 #define colleges and urls
 colleges={'Harvard','Princeton','Yale','Columbia','Cornell','Dartmouth','Brown','Penn'}
@@ -14,7 +13,7 @@ colleges_urls = {'Harvard':'https://www.linkedin.com/school/harvard-university/p
           'Penn':''}
 
 #How many top employers or industries do you want to pull?
-run_through = 17 #17 max/full (top 15) 
+run_through = 17 #17 equals all top 15 
 
 # login credentials
 linkedin_username = 'XXXX' #enter user_name here
