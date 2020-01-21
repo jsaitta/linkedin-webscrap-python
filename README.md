@@ -18,5 +18,5 @@ This repository contains two files:
     
     
     
-### Note
-Since this repository does 
+#### Note
+Since this repository scraps data off the front-facing LinkedIn website, the xpath locations (of certain elements: data, buttons, etc.) change rather frequently. These can simply be updated by copying the full xpath location after selecting the element via the inspect function.
