@@ -1,4 +1,4 @@
-#LINKEDIN Web Scraping
+#Web Scraping from LinkedIn (without accessing API)
 
 # imports
 import parameters
